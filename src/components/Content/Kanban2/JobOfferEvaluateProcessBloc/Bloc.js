@@ -74,6 +74,7 @@ class BlocJobOfferForm {
             this.loading(false);
 
 
+
         }
     }
     async save(values) {
