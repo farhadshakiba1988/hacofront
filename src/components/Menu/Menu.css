@@ -1,0 +1,117 @@
+.menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 27.8rem;
+	z-index: 0;
+	background-color: #2a2d44;
+}
+
+.hacoupian {
+	color: white;
+	width: 27.8rem;
+	height: 6.9rem;
+	background-color: #2a2d44;
+	font-size: 3rem;
+	transition: all 0.5s;
+	font-family: English;
+}
+
+.h {
+	color: white;
+	height: 6.9rem;
+	background-color: #2a2d44;
+	font-size: 2.8rem;
+	text-align: right;
+	padding-right: 2.1rem;
+	padding-top: 1.9rem;
+	font-family: English;
+}
+
+.sidenav {
+	width: 26rem;
+	text-align: right;
+}
+
+.sidenav a {
+	width: 100%;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #d2d2d7;
+}
+
+.selected:hover {
+	color: #f87171 !important;
+}
+
+.sidenav button {
+	width: 100%;
+	display: block;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	color: #d2d2d7;
+	font-size: 1.7rem;
+	font-family: Regular;
+}
+
+.menu-item {
+	margin-top: 4.5rem;
+	text-decoration: none;
+	color: #d2d2d7;
+	font-family: Regular;
+	font-size: 1.7rem;
+	width: 100%;
+	height: 3rem;
+	position: relative;
+
+}
+
+img {
+	display: inline;
+}
+
+.menu-icon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+}
+
+.menu-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 78%;
+	height: 100%;
+}
+
+.hr-icon {
+	float: right;
+	padding-left: 3rem;
+}
+
+.hr-text {
+	padding-left: 7.5rem;
+}
+
+.dropdown-container {
+	padding-right: 6rem;
+	/*display: none;*/
+}
+
+.dropdown-container a {
+	padding-top: 2.3rem;
+	font-family: Regular;
+	text-decoration: none;
+	font-size: 1.4rem;
+	color: #d2d2d7;
+}
+
+.selected {
+	color: #f87171;
+	font-family: ExtraBold;
+}

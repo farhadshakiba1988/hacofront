@@ -1,0 +1,114 @@
+{
+  "_from": "@lourenci/react-kanban",
+  "_id": "@lourenci/react-kanban@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ieNi7d/01wgT9t8kN7Z/RBubyZq9VvKXyU/5sj+UlrY8h4GPRNrN11jLV/ykg55lhyXGKgXDk3ObYurOfrmu3w==",
+  "_location": "/@lourenci/react-kanban",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@lourenci/react-kanban",
+    "name": "@lourenci/react-kanban",
+    "escapedName": "@lourenci%2freact-kanban",
+    "scope": "@lourenci",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@lourenci/react-kanban/-/react-kanban-2.0.0.tgz",
+  "_shasum": "1acc8d83f5d9eaa2e2fa0c227229dd687cd3983c",
+  "_spec": "@lourenci/react-kanban",
+  "_where": "C:\\Users\\nzadfatollah\\Desktop\\fronthacotech360-merge - correct",
+  "author": {
+    "name": "Leandro Lourenci"
+  },
+  "bugs": {
+    "url": "https://github.com/lourenci/react-kanban/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "react-beautiful-dnd": "^13.0.0"
+  },
+  "deprecated": false,
+  "description": "Yet another Kanban/Trello board lib for React.",
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/plugin-proposal-optional-chaining": "7.9.0",
+    "@babel/preset-env": "7.9.6",
+    "@babel/preset-react": "7.9.4",
+    "@cypress/code-coverage": "3.7.0",
+    "@testing-library/jest-dom": "5.7.0",
+    "@testing-library/react": "10.0.4",
+    "all-contributors-cli": "6.14.1",
+    "babel-eslint": "10.1.0",
+    "babel-loader": "8.1.0",
+    "babel-plugin-istanbul": "6.0.0",
+    "babel-plugin-react-remove-properties": "0.3.0",
+    "cross-env": "7.0.2",
+    "css-loader": "^3.4.2",
+    "cypress": "4.5.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-config-standard-react": "9.2.0",
+    "eslint-plugin-cypress": "2.10.3",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-jest": "23.9.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.1.3",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "2.5.1",
+    "eslint-plugin-standard": "4.0.1",
+    "html-webpack-plugin": "3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "istanbul-lib-coverage": "3.0.0",
+    "jest": "26.0.1",
+    "jest-circus": "26.0.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "prettier": "2.0.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "sass-loader": "^8.0.2",
+    "semantic-release": "17.0.7",
+    "start-server-and-test": "1.10.11",
+    "styled-components": "5.0.1",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/styles.css"
+  ],
+  "homepage": "https://github.com/lourenci/react-kanban#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@lourenci/react-kanban",
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lourenci/react-kanban.git"
+  },
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "cypress": "cypress",
+    "dev": "cross-env NODE_ENV=cypress start-test server 8080 'cypress open'",
+    "jest:watch": "jest --no-coverage --watch --runInBand --notify --notifyMode always",
+    "lint": "eslint 'src/**/*.js' 'cypress/**/*.js'",
+    "prepublishOnly": "rm -rf dist/ && NODE_ENV=production webpack --config webpack.prod.js",
+    "server": "webpack-dev-server --config webpack.dev.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "test": "jest"
+  },
+  "version": "2.0.0"
+}

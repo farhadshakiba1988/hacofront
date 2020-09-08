@@ -1,0 +1,15 @@
+button span {
+    margin-left: 1.4rem;
+}
+.ant-btn {
+    /*background-color: #f87171 !important;*/
+    border-radius: 0.5rem !important;
+    border: none !important;
+    color: white !important;
+    font-family: Bold;
+    font-size: 1.5rem !important;
+}
+
+.ant-btn:hover {
+    background-color: #f86363 !important;
+}

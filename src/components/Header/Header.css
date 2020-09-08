@@ -1,0 +1,19 @@
+.header {
+	/*width: 100%;*/
+	height: 6.9rem;
+	/*background-color: white;*/
+	/*text-align: right;*/
+	box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.03);
+}
+
+.header span {
+	margin-right: 2.7rem;
+}
+
+.header span button {
+	margin-top: 2.6rem;
+	outline: none;
+	/*border: none;*/
+	/*cursor: pointer;*/
+	/*background-color: transparent;*/
+}

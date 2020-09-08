@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+	background-color: #2a2d44;
+}
+
+@font-face {
+	font-family: English;
+	src: url('../../Fonts/englishFont.TTF');
+}
+
+@font-face {
+	font-family: ExtraBold;
+	src: url('../../Fonts/ttf/extrabold.ttf');
+}
+
+@font-face {
+	font-family: Bold;
+	src: url('../../Fonts/ttf/bold.ttf');
+}
+
+@font-face {
+	font-family: Regular;
+	src: url('../../Fonts/ttf/regular.ttf');
+}
+
+@font-face {
+	font-family: Medium;
+	src: url('../../Fonts/ttf/medium.ttf');
+}
+
+@font-face {
+	font-family: Light;
+	src: url('../../Fonts/ttf/light.ttf');
+}
+.center {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.app {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: calc(100% - 27.8rem);
+	transition: all 0.5s;
+	z-index: 1;
+}
+
+.container-expanded {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: calc(100% - 6.9rem);
+	transition: all 0.5s;
+	z-index: 1;
+}
+
+::-webkit-scrollbar {
+	width: 0.5rem;
+	display: none;
+}
+
+::-webkit-scrollbar-track {
+	background: #bdbdbd;
+}
+::-webkit-scrollbar-thumb {
+	background: rgb(161, 161, 161);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+
+	.container-expanded {
+		width: 100%;
+		transform: translateX(-27.8rem);
+	}
+
+	.h {
+		padding-right: 0;
+	}
+
+	.H {
+		color: #2a2d44;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.container {
+		width: calc(100% - 6.9rem);
+	}
+
+	.container-expanded {
+		width: 100%;
+		transform: translateX(-27.8rem);
+	}
+
+	.h {
+		padding-right: 0;
+		color: white;
+		width: 27.8rem;
+		height: 6.9rem;
+		background-color: #2a2d44;
+		font-size: 3rem;
+		font-family: English;
+	}
+
+	.hacoupian {
+		color: white;
+		height: 6.9rem;
+		background-color: #2a2d44;
+		font-size: 2.8rem;
+		text-align: right;
+		padding-right: 2.1rem;
+		padding-top: 1.9rem;
+		font-family: English;
+	}
+}
+

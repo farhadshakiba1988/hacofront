@@ -1,0 +1,48 @@
+.ant-table-content{
+  border-radius: 5px !important;
+  border: solid 0px #d1d1d1;
+}
+button.ant-btn.ant-dropdown-trigger.ant-dropdown-rtl.ant-btn-default.ant-btn-icon-only.ant-btn-rtl{
+  height: 45px !important;
+}
+.ant-dropdown-trigger{
+  color: #bfbfbf !important;
+}
+.ant-table-tbody{
+  border: solid 0.5px #d1d1d1;
+}
+th.ant-table-cell{
+  background-color: #edf1f8 !important;
+  font-family:boldf !important;
+  font-weight:bold !important;
+  font-size: 14px !important;
+  line-height:26px !important;
+  color:#000000 !important;
+letter-spacing:-0.15px !important;
+}
+span.ant-table-filter-column-title{
+  padding: 8px 0.2em 8px 8px !important;
+}
+td.ant-table-cell{
+  font-family: regularf !important;
+  font-size: 14px !important;
+  line-height:25px !important;
+  color: #3c3c3c !important;
+  font-weight: normal !important
+}
+a{
+  font-family: extraboldf !important;
+  font-size: 16px !important;
+}
+  #search_button svg {
+}
+  #search_button span {
+  font-size: 12px !important;
+  font-family: boldf !important;
+  padding-bottom: 10px !important;
+}
+#delete_button{
+  font-size: 12px !important;
+  font-family: boldf !important;
+}
+

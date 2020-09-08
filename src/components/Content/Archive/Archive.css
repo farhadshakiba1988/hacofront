@@ -1,0 +1,133 @@
+.joboffer {
+  width: calc(100% - 5.4rem);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 0.5rem;
+  margin-top: 2.4rem;
+}
+
+.joboffer-header {
+  font-family: ExtraBold;
+  font-size: 2.5rem;
+  color: #2a2d44;
+}
+
+.joboffer-actions {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 3.2rem;
+}
+
+.search {
+  width: 37.7rem !important;
+  height: 4rem !important;
+}
+
+.filter.ant-btn {
+  background-color: transparent !important;
+  border-radius: 0.5rem !important;
+  border: 1px solid #d9d9d9 !important;
+  color: #494949 !important;
+  font-family: Medium !important;
+  font-size: 1.5rem !important;
+}
+
+/* ant input search section */
+input {
+  text-align: end !important;
+  font-family: Regular !important;
+}
+
+.ant-input {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.ant-input-affix-wrapper {
+  border-radius: 0.5rem !important;
+  padding-top: 0.65rem!important;
+  padding-bottom: 0.65rem !important;
+}
+
+.ant-input-search-icon::before {
+  border: none !important;
+}
+
+.ant-input-search-icon::after {
+  border: none !important;
+}
+
+/* end ant input search section */
+
+.dropdown {
+  border-radius: 0.5rem !important;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*.test {
+  margin-bottom: 1rem !important;
+}*/
+
+.check {
+  margin-right: 1.4rem !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .joboffer {
+    width: 100%;
+  }
+
+  .joboffer-header {
+    font-size: 2.3rem;
+  }
+
+  .joboffer-actions {
+    text-align: right;
+    margin-bottom: 3.2rem;
+  }
+
+  .search {
+    width: calc(100% - 4.4rem) !important;
+    height: 4rem !important;
+  }
+
+  .joboffer-add-button {
+    margin-right: 2.2rem;
+  }
+
+  .request_condition {
+    width: calc(100% - 4.4rem);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .joboffer {
+    width: 100%;
+  }
+
+  .joboffer-header {
+    font-size: 2.3rem;
+  }
+
+  .joboffer-actions {
+    text-align: right;
+    margin-bottom: 3.2rem;
+  }
+
+  .search {
+    width: calc(100% - 4.4rem) !important;
+    height: 4rem !important;
+  }
+
+  .joboffer-add-button {
+    margin-right: 2.2rem;
+  }
+
+  .request_condition {
+    width: calc(100% - 4.4rem);
+  }
+}
+

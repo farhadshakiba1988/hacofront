@@ -1,0 +1,22 @@
+.ant-drawer-body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.ant-tabs-nav-list button {
+    outline: none !important;
+    border: none !important;
+}
+
+.ant-tabs-content {
+    font-family: Medium !important;
+    font-size: 2rem !important;
+}
+
+#rc-tabs-0-tab-1 {
+
+}
+
+#rc-tabs-0-tab-2 {
+}
+

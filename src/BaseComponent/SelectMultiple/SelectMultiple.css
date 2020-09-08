@@ -1,0 +1,22 @@
+
+.ant-select-multiple .ant-select-selector {
+  min-height: 40px !important;
+  border-radius: 10px!important;
+  color:#5685ee !important;
+  font-family: mediumf !important;
+  font-size: 13px !important;
+  margin-left: 26px !important;
+}
+span.ant-select-selection-item{
+  border-radius: 5px!important;
+  margin-right: 5px !important;
+  background-color: #eff4ff !important;
+}
+.ant-select-selection-item-remove{
+  color :#5685ee !important;
+}
+@media only screen and (max-width: 766px) {
+  .ant-select-multiple .ant-select-selector {
+    margin-left: 30px !important;
+  }
+}

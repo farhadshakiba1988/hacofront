@@ -1,0 +1,12 @@
+.borderbutton{
+  width: 130px !important;
+  border-radius: 10px !important;
+  border: solid 0.5px #acacac !important;
+  background-color: #eff4ff !important;
+ font-family:Regular !important ;
+ color:#9a9a9a !important;
+ /*font-size:14px !important;*/
+}
+@media only screen and (max-width: 766px)
+{
+}
