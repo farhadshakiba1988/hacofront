@@ -32,7 +32,7 @@ class BlocJobOfferForm {
             this.loading(true);
             const {data} = await getApplicantForEvaluate();
 
-            const {department_id,jobTitle_id,joblocation_id,image,resume,fname,lname,senddate,sendLocation_id} = data;
+            const {department_id,jobTitle_id,joblocation_id,image,resume,fname,lname,senddate,sendLocation_id,email,mobile,age,education_id,jobskill_id,description} = data;
 
 
             this.repo.department_id = data.department_id;
@@ -44,9 +44,14 @@ class BlocJobOfferForm {
             this.repo.lname = data.lname;
             this.repo.senddate = data.senddate;
             this.repo.sendLocation_id = data.sendLocation_id;
+            this.repo.email = data.email;
+            this.repo.mobile = data.mobile;
+            this.repo.age = data.age;
+            this.repo.education_id = data.education_id;
+            this.repo.jobskill_id = data.jobskill_id;
+            this.repo.description = data.description;
 
             this.refresh();
-
         }   catch (e) {
             this.error('خطا در دریافت اطلاعات از سرور');
             throw e;
